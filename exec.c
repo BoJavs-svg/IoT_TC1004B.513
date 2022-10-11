@@ -8,7 +8,7 @@ int main(){
 
     if( pid == 0){
         printf("Soy el proceso hijo y me voy a convertir en ls\n");
-        execl("/workspace/tc10004b.513/hola", "hola",NULL);
+        execl("", "hola",NULL);
         printf("Esto no debe ejecutarse.");
     }else{
         printf("Soy el proceso padre\n");
